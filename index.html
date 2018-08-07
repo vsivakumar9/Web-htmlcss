@@ -10,39 +10,125 @@
 <body>
 <!-- Creates the Overall Grid -->
  <div class="container">
- <!-- Row 1 -->
-    <div class="row1">
-      <div class="col-md-12">
-        <h1> Summary: Latitude vs Weather Variables </h1>
-		<article>
-           <a target="_blank" href="assets/images/cloudymap.png">
-				<img src="assets/images/cloudymap.png" alt="Cloudy Map">
-		   </a>
-    <p><em>Cloudy Map</em></p>
-    </article>
+	<!-- row 1 has the headings needed across the page. -->
+    <div class="row">
+		<div class="col-md-6">
+			<!-- <div class="box-set">
+				<figure class="box box-1">Latitude</figure>
+			</div>  -->
+			
+		<h1> Latitude  </h1>
+		</div>
+		<div class="col-md-1">
+		</div>
 		
-      </div>
-    </div>
-	<div class="row2">
-      <div class="col-md-4">
-        <h1> Latitude vs Max Temperature </h1>
-      </div>
-	  
-	  <div class="col-md-4">
-        <h1> Latitude vs Max Temperature2 </h1>
-      </div>
-	  <div class="col-md-2">
-        <h1> Latitude vs Max Temp3 </h1>
-      </div>
-	  <div class="col-md-2">
-        <h1> Latitude vs Max Temp4 </h1>
-      </div>
-	  
-    </div>
+		<div class="col-md-1">
+		</div>
+		
+		<div class="col-md-1">
+		</div>
+		
+		<div class="col-md-1">
+			<ul>
+				<li> <a href="#"> Plots </a>   </li>
+			</ul>
+		</div>
+		
+		<div class="col-md-1">
+		<!-- <h3> Menu links  </h3> !-->
+				
+			<ul>
+			<li>  <a href="#"> Comparison </a>  </li>
+			</ul>
+		</div>
+			
+		<div class="col-md-1">
+			<ul>
+				<li> <a href="#"> Data </a> </li>
+			</ul>
+		</div>
+	</div>
+	
+	<!-- Row 2 -->
+ 	<div class="row">
+		<div class="col-md-8">
+			
+			<h2>  Summary: Latitude vs Weather Variables </h2>
 
-   
+		</div>
+		
+		<div class="col-md-2">
+			<h3> Visualizations </h3>
+		</div>
+		<div class="col-md-2">
+			
+		</div>
 
- </div>
+		
+    </div>
+	
+	<!-- Row 3 -->
+	<div class="row">
+		<div class="col-md-4">
+			<article>
+				<a target="_blank" href="Resources/assets/images/Fig1.png">
+				<img src="Resources/assets/images/Fig1.png" alt="Latitude vs Max Temp" width ="80%">
+				</a>
+			</article>
+		</div>
+		<div class="col-md-4">
+			<p>
+			  <em>This is a summary of the Weather anaylsis for about 500 cities in varying latitudes covering the world. The OpenWeatherMap API
+				was used to determine weather realated information like Maximum temperature, Humidity,  cloudiness, Windspeed. After assembling the dataset
+				pandas was used to convert to dataframes and perform needed operations. Matplotlib and Searborn was then used to plot the results of the analysis 
+				of latitude versus the other weather variables. This site provides the data and the visualizations created as part of the analysis. Observations 
+				and explanations of trends and correlations are also included.
+			  	
+			  </em>
+			</p>
+		</div>
+		
+		<div class="col-md-2">
+        <h6> Latitude vs Max Temp </h6>
+			<a target="_blank" href="Resources/assets/images/Fig1.png">
+			<img src="Resources/assets/images/Fig1.png" alt="Latitude vs Max Temp" width ="80%">
+			</a>
+		</div>
+		<div class="col-md-2">
+        <h6> Latitude vs Humidity </h6>
+			<a target="_blank" href="Resources/assets/images/Fig2.png">
+			<img src="Resources/assets/images/Fig2.png" alt="Latitude vs Humidity" width ="80%">
+			</a>
+		</div>
+
+	 </div>
+	 
+	<!-- Row 4 -->
+	<div class="row">
+		<div class= "col-lg-8" "col-md-8">
+		</div>
+		<div class="col-lg-2" "col-md-2">
+        <h6> Latitude vs Wind Speed  </h6>
+			<a target="_blank" href="Resources/assets/images/Fig4.png">
+			<img src="Resources/assets/images/Fig4.png" alt="Latitude vs Wind Speed.." width ="80%">
+			</a>
+		</div>
+		
+		<div class="col-lg-2" "col-md-2">
+        <h6> Latitude vs Cloudiness </h6>
+			<a target="_blank" href="Resources/assets/images/Fig3.png">
+			<img src="Resources/assets/images/Fig3.png" alt="Latitude vs Cloudiness" width ="80%">
+			</a>
+		</div>
+		<div class= "col-lg-2" "col-md-2">
+		</div>
+		
+    </div>
+	
+  
+  </div>
+ 
+ 
 </body>
 
 </html>
